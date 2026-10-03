@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ORBIS — プライバシーポリシー</title>
+<style>
+  :root { --bg:#070910; --ink:#e8eef6; --mid:#8d98a8; --line:#1b2230; --accent:#5cd9ff; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif;
+    line-height:1.85; -webkit-font-smoothing:antialiased; }
+  main { max-width:680px; margin:0 auto; padding:72px 24px 96px; }
+  .mark { font-size:34px; font-weight:700; letter-spacing:0.06em; }
+  .mark span { color:var(--accent); font-size:20px; letter-spacing:0; margin-left:8px; }
+  .lead { color:var(--mid); margin-top:4px; }
+  h2 { font-size:13px; letter-spacing:0.14em; color:var(--mid); margin:44px 0 12px; padding-top:24px; border-top:1px solid var(--line); }
+  h2::before { content:""; display:inline-block; width:3px; height:11px; background:var(--accent); margin-right:10px; border-radius:1px; }
+  p, li { font-size:15px; }
+  ul { padding-left:1.2em; }
+  a { color:var(--accent); }
+  code { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:13px; color:var(--mid); }
+  .en { color:var(--mid); font-size:14px; }
+  footer { margin-top:64px; padding-top:24px; border-top:1px solid var(--line); color:var(--mid); font-size:13px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark">プライバシーポリシー</div>
+  <p class="lead">ORBIS(以下「本アプリ」)における個人情報の取り扱いについて。</p>
+
+  <h2>要点</h2>
+  <p><strong>本アプリは、利用者の情報を収集しません。</strong>位置情報は上空の計算のために端末の中だけで使い、どこにも送信しません。広告・解析・トラッキングは使用していません。</p>
+  <p class="en">Summary: This app collects no personal data. Your location is used only on the device and is never sent anywhere. No ads, analytics or tracking.</p>
+
+  <h2>1. 位置情報</h2>
+  <p>許可された場合に限り、現在地を「上空にある物体」と「上空を通る時刻」の計算に使います。計算はすべて端末の中で行い、位置情報を外部へ送信・保存することはありません。許可しない場合は、選んだ都市の位置で計算します。</p>
+
+  <h2>2. 通信</h2>
+  <p>本アプリは、公開データを取得するために次の宛先へ接続します。送るのはデータの取得要求だけで、位置情報や利用者を識別する情報は含みません。</p>
+  <ul>
+    <li>CelesTrak(<code>celestrak.org</code>): 軌道要素</li>
+    <li>開発者の中継サーバー(<code>orbis-web-two.vercel.app</code>): CelesTrak に直接つながらないときの軌道要素</li>
+    <li>NOAA 宇宙天気予報センター(<code>services.swpc.noaa.gov</code>): 太陽フレア・地磁気・太陽風</li>
+  </ul>
+  <p>一般的なインターネット通信と同様に、接続先のサーバーには通信元の IP アドレスが届きます。開発者はこれを利用者の識別に使いません。</p>
+
+  <h2>3. 端末内に保存するもの</h2>
+  <p>お気に入り、観測地点の選択、効果音・表示の設定、取得した軌道要素の控えを端末内に保存します。外部には送信しません。</p>
+
+  <h2>4. 通知</h2>
+  <p>「見える 10 分前に通知」を有効にした場合、端末内で予定するローカル通知を使います。通知のために外部へ情報を送ることはありません。</p>
+
+  <h2>5. 第三者への提供</h2>
+  <p>本アプリは広告、解析ツール、トラッキング、外部送信を行う SDK を使用していません。第三者に提供する情報はありません。</p>
+
+  <h2>6. データの削除</h2>
+  <p>アプリを削除すると、端末内のデータはすべて削除されます。</p>
+
+  <h2>7. お問い合わせ</h2>
+  <p><a href="mailto:fields_sane_7i@icloud.com">fields_sane_7i@icloud.com</a></p>
+
+  <h2>8. 改定</h2>
+  <p>本ポリシーを改定する場合は、このページで告知します。</p>
+
+  <footer>制定日:2026年10月3日</footer>
+</main>
+</body>
+</html>
